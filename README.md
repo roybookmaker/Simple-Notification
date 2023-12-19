@@ -20,12 +20,12 @@ Extensibility: Built with extensibility in mind, allowing for easy expansion and
 **Usage**:
 **To use this component, you can import the Service file into your component :**
 
-_import { NotificationService } from "../shared-component/notification/notification.service";_
+* _import { NotificationService } from "../shared-component/notification/notification.service";_
 
 **Add the service to the constructor**
 
 _public constructor(
-  private notificationService: NotificationService
+  **private notificationService: NotificationService**
 ) {}_
 
 **Call the service to show the notification on any function you like (pick one that suit the condition)**
