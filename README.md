@@ -2,6 +2,7 @@
 
 This Angular Notification Module is designed to streamline and enhance the notification process within Angular projects. Originally created for personal use, this module offers a simple yet adaptable framework for managing notifications. It provides a foundational structure that can be seamlessly integrated into various Angular applications.
 
+
 **Features:**
 Customizable Configuration: Tailor notifications to suit specific project needs by easily adjusting configurations.
 Ease of Integration: Simple integration into Angular projects, ensuring a smooth implementation process.
@@ -38,6 +39,7 @@ _this.notificationService.showNotification("Lorem ipsum dolor sit amet, consecte
 
 **Getting Started**:
 Explore the comprehensive documentation for detailed instructions on installation, configuration, and implementation.
+
 
 **License**:
 This project is licensed under MIT License, ensuring flexibility for usage and modification. Refer to the LICENSE file for more details.
