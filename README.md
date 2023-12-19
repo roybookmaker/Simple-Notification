@@ -24,9 +24,7 @@ Extensibility: Built with extensibility in mind, allowing for easy expansion and
 
 **Add the service to the constructor**
 
-_public constructor(
-  **private notificationService: NotificationService**
-) {}_
+* _public constructor( **private notificationService: NotificationService** ) {}_
 
 **Call the service to show the notification on any function you like (pick one that suit the condition)**
 
