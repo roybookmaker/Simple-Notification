@@ -18,17 +18,23 @@ Extensibility: Built with extensibility in mind, allowing for easy expansion and
 
 **Usage**:
 **To use this component, you can import the Service file into your component :**
+
 _import { NotificationService } from "../shared-component/notification/notification.service";_
+
 **Add the service to the constructor**
+
 _public constructor(
   private notificationService: NotificationService
 ) {}_
+
 **Call the service to show the notification on any function you like (pick one that suit the condition)**
+
 _this.notificationService.showNotification("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "success");_
 _this.notificationService.showNotification("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "warning");_
 _this.notificationService.showNotification("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "info");_
 _this.notificationService.showNotification("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "success");_
 _this.notificationService.showNotification("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "error");_
+
 
 **Getting Started**:
 Explore the comprehensive documentation for detailed instructions on installation, configuration, and implementation.
